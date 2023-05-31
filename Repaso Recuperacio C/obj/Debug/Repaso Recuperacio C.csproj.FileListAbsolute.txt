@@ -6,3 +6,11 @@ C:\Users\Equipo\Desktop\CLASE\PROGRAMACION\4º evaluacion (objetos)\Repaso Recup
 C:\Users\Equipo\Desktop\CLASE\PROGRAMACION\4º evaluacion (objetos)\Repaso Recuperacio C\Repaso Recuperacio C\obj\Debug\Repaso Recuperacio C.csproj.CoreCompileInputs.cache
 C:\Users\Equipo\Desktop\CLASE\PROGRAMACION\4º evaluacion (objetos)\Repaso Recuperacio C\Repaso Recuperacio C\obj\Debug\Repaso Recuperacio C.exe
 C:\Users\Equipo\Desktop\CLASE\PROGRAMACION\4º evaluacion (objetos)\Repaso Recuperacio C\Repaso Recuperacio C\obj\Debug\Repaso Recuperacio C.pdb
+C:\Users\EQUIPO\Desktop\Repaso-C-\Repaso Recuperacio C\bin\Debug\Repaso Recuperacio C.exe.config
+C:\Users\EQUIPO\Desktop\Repaso-C-\Repaso Recuperacio C\bin\Debug\Repaso Recuperacio C.exe
+C:\Users\EQUIPO\Desktop\Repaso-C-\Repaso Recuperacio C\bin\Debug\Repaso Recuperacio C.pdb
+C:\Users\EQUIPO\Desktop\Repaso-C-\Repaso Recuperacio C\obj\Debug\Repaso Recuperacio C.csproj.AssemblyReference.cache
+C:\Users\EQUIPO\Desktop\Repaso-C-\Repaso Recuperacio C\obj\Debug\Repaso Recuperacio C.csproj.SuggestedBindingRedirects.cache
+C:\Users\EQUIPO\Desktop\Repaso-C-\Repaso Recuperacio C\obj\Debug\Repaso Recuperacio C.csproj.CoreCompileInputs.cache
+C:\Users\EQUIPO\Desktop\Repaso-C-\Repaso Recuperacio C\obj\Debug\Repaso Recuperacio C.exe
+C:\Users\EQUIPO\Desktop\Repaso-C-\Repaso Recuperacio C\obj\Debug\Repaso Recuperacio C.pdb

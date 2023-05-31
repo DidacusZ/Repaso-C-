@@ -20,15 +20,22 @@ namespace Repaso_Recuperacio_C
             string nombre;
             string apellidos;
             int anio, mes, dia;
-
-
+            
             nombre = servicio.Pedir("dime el nombre");
             apellidos = servicio.Pedir("dime el apellido");
             dia = Convert.ToInt32(servicio.Pedir("dime la fecha de nacimiento (dia)"));
             mes = Convert.ToInt32(servicio.Pedir("dime la fecha de nacimiento (mes)"));
             anio = Convert.ToInt32(servicio.Pedir("dime la fecha de nacimiento (año)"));
 
-            per1 = new Persona(nombre, apellidos, dia, mes, anio);
+            //con objetos
+            //per1 = new Persona(nombre, apellidos, dia, mes, anio);            
+
+            //con getters y setters
+            per1.Nombre=nombre;
+            per1.Apellidos = apellidos;
+            per1.Dia = dia;
+            per1.Mes = mes;
+            per1.Anio = anio;
 
             Console.WriteLine(per1.ToString());
 
@@ -44,31 +51,6 @@ namespace Repaso_Recuperacio_C
             */
 
             Console.ReadKey();
-
-            //Pilares programacion orientada a objetos
-
-            //Polimorfismo -->
-
-            //Herencia -->
-
-            //Encapsulamiento --> dar privacidad a una clase,metodo,variable... (private)
-            //controlar desde donde se puede acceder a nuestro codigo
-            //se utiliza para no tener una ....API (interfaz de programación de aplicaciones) pantalla inermedia, ofrece informacion
-
-            //Abstraccion(trabajo) --> ir paso por paso;
-            //sacar idea principal de cada parrafo;
-            //solo pensar en lo fundamental
-            //no definir nada hasta el momento de su uso (metodos)
-            //es como hacer un esquema de todo con las declaraciones de los metodos
-
-            //crear todos metodos en interfaces,impl...  y que el codigo compile aunque no haga nada
-            //es como tener un esquema de todo el proyecto y luego definir los metodos
-
-            //Abstraccion(codigo) --> nombreInterfaz in = new nombreImpl();  esto es abstraccion
-
-
-            //sobrecarga
-
         }
     }
 }
