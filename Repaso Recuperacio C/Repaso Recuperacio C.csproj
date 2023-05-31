@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Persona.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="entidades\Persona.cs" />
+    <Compile Include="controladores\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="servicios\servicio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
