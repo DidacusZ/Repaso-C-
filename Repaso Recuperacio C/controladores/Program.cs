@@ -13,9 +13,26 @@ namespace Repaso_Recuperacio_C
             //constructor vacio
             Persona per1 = new Persona();
 
-            //constructor todos los campos
-            Persona per2 = new Persona("regino","fdez",14,09,1991);
+            //constructor servicios
+            Servicio servicio = new Servicio();
 
+            //variables
+            string nombre;
+            string apellidos;
+            int anio, mes, dia;
+
+
+            nombre = servicio.Pedir("dime el nombre");
+            apellidos = servicio.Pedir("dime el apellido");
+            dia = Convert.ToInt32(servicio.Pedir("dime la fecha de nacimiento (dia)"));
+            mes = Convert.ToInt32(servicio.Pedir("dime la fecha de nacimiento (mes)"));
+            anio = Convert.ToInt32(servicio.Pedir("dime la fecha de nacimiento (año)"));
+
+            per1 = new Persona(nombre, apellidos, dia, mes, anio);
+
+            Console.WriteLine(per1.ToString());
+
+            /*
             per1.Nombre = "diego";
             per1.Apellidos = "de la prada";
 
@@ -24,6 +41,8 @@ namespace Repaso_Recuperacio_C
             Console.WriteLine("\ntodos campos");            
             Console.WriteLine("{0} {1} {2}-{3}-{4}", per2.Nombre,per2.Apellidos,per2.Dia,per2.Mes,per2.Anio);
             Console.WriteLine(per2.ToString());
+            */
+
             Console.ReadKey();
 
             //Pilares programacion orientada a objetos
@@ -46,6 +65,9 @@ namespace Repaso_Recuperacio_C
             //es como tener un esquema de todo el proyecto y luego definir los metodos
 
             //Abstraccion(codigo) --> nombreInterfaz in = new nombreImpl();  esto es abstraccion
+
+
+            //sobrecarga
 
         }
     }
